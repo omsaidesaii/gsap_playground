@@ -4,7 +4,7 @@ gsap.to ('.card', {
   duration: 5,
   oncComplete:()=>{
     gsap.to('.card',{
-        y: -20,
+        x: -20,
         repeat:-1,
         yoyo:true,
         duration:0.5
